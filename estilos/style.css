@@ -44,16 +44,9 @@ body{
 .calculadora__teclado{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     align-items: center;
     gap: 8px;
-    /* grid-template-areas: 
-    "ba ta tin a"
-    "limpar voltar dividir multiplicar "
-    "sete oito nove subtrair"
-    "quatro cinco seis somar"
-    "um dois tres somar"
-    "zero zero ponto calcular"; */
 }
 
 .botao{
@@ -84,14 +77,14 @@ body{
 }
 .mais{
     height: 88px;
-    grid-row: 4/6;
+    grid-row: 3/5;
     grid-column: 4/5;
     align-self: start;
 }
 
 .igual{
     height: 88px;
-    grid-row: 5/7;
+    grid-row: 4/6;
     grid-column: 4/5;
     align-self: end;
 }
